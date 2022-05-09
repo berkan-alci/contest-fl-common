@@ -1,5 +1,5 @@
 {
-    "name": "@tt-ms-common/contest-allactivity",
+    "name": "@tt-ms-common/allactivity",
     "version": "1.0.1",
     "description": "Common lib for ticketing microservice",
     "main": "./build/index.js",
@@ -8,7 +8,7 @@
         "build/**/*"
     ],
     "scripts": {
-        "clean": "del ./build/*",
+        "clean": "del /Q /S .\\build\\*",
         "build": "npm run clean && tsc",
         "pub": "git add . && git commit -m \"Updated common lib\" && npm version patch && npm run build && npm publish"
     },
