@@ -1,5 +1,5 @@
 {
-    "name": "@tt-ms-common/allactivity",
+    "name": "@cgestione/aa-common",
     "version": "1.0.2",
     "description": "Common lib for ticketing microservice",
     "main": "./build/index.js",
